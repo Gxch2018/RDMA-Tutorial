@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T01:46:26.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="d63agzAgXMZQamHKG1BE" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T02:47:18.097Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5NeydTCGdXG6x7k9XZwd" version="23.0.0" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1185" dy="1796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -222,6 +222,581 @@
         </mxCell>
         <mxCell id="zvvp0phdEBOQ2-SjyJMt-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.003;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zvvp0phdEBOQ2-SjyJMt-45" target="zvvp0phdEBOQ2-SjyJMt-46">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="G7KJD26BnXTB1K1rw4Ki" name="第 2 页">
+    <mxGraphModel dx="1185" dy="1796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PPj-uqhimi7uNAB7kXMs-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-2" target="PPj-uqhimi7uNAB7kXMs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-2" value="接收到EntryMsg" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-3" value="在" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;endArrow=classic;endFill=1;strokeWidth=1;shadow=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-5" target="23TfupfvgyzuIX6kTMrO-10">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-5" target="23TfupfvgyzuIX6kTMrO-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-60" value="不在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-59">
+          <mxGeometry x="-0.3214" y="-1" relative="1" as="geometry">
+            <mxPoint y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-5" value="出接口&lt;br&gt;在savnet接口表中？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="30" y="128" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-6" value="报错：没有该savnet接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="148" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-7" value="不在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=classic;endFill=1;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-10" target="23TfupfvgyzuIX6kTMrO-11">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-10" target="23TfupfvgyzuIX6kTMrO-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-9" value="在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-8">
+          <mxGeometry x="-0.1917" y="3" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-10" value="前缀&lt;br&gt;在RIB中？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="30" y="248" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-11" value="在savnet表中增加sav规则，状态设置为inactive" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="263" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-12" value="增加" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-15" target="23TfupfvgyzuIX6kTMrO-5">
+          <mxGeometry x="-0.5556" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-15" target="23TfupfvgyzuIX6kTMrO-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460.02857142857147" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-14" value="删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-13">
+          <mxGeometry x="-0.04" y="1" relative="1" as="geometry">
+            <mxPoint x="-66" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-15" value="增加规则？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-20" target="23TfupfvgyzuIX6kTMrO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-17" value="不在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-16">
+          <mxGeometry x="-0.32" y="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-20" target="23TfupfvgyzuIX6kTMrO-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-19" value="在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-18">
+          <mxGeometry x="-0.1476" relative="1" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-20" value="出接口&lt;br&gt;在savnet接口表中？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="350" y="128" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-22" value="不完全多归属&lt;br&gt;互联网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-21">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="23TfupfvgyzuIX6kTMrO-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="610" as="targetPoint" />
+            <mxPoint x="80" y="592" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-24" value="单归属、完全多归属" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-23">
+          <mxGeometry x="-0.0711" relative="1" as="geometry">
+            <mxPoint x="60" y="-143" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PPj-uqhimi7uNAB7kXMs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-25" target="PPj-uqhimi7uNAB7kXMs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-25" value="接口类型" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="368" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="23TfupfvgyzuIX6kTMrO-31" source="23TfupfvgyzuIX6kTMrO-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="670" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-28" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-27">
+          <mxGeometry x="-0.0469" y="-1" relative="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="23TfupfvgyzuIX6kTMrO-36" source="23TfupfvgyzuIX6kTMrO-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.99857142857147" y="750.0014285714285" as="sourcePoint" />
+            <mxPoint x="198.89000000000007" y="925.6499999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-30" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-29">
+          <mxGeometry x="-0.2777" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-31" value="路由器是否有互联网、不完全多归属接口？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-32" value="报错？不应该有这样的SPA，不处理这个事件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E0FF14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="378" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-33" value="savnet表中生成该接口的白名单sav规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-34" value="在这两种接口上生成对应前缀黑名单规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-36" target="23TfupfvgyzuIX6kTMrO-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-36" value="发送ZEBRA_BGP_SAVNET_DECLARE消息通知BGPD进程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.003;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-34" target="23TfupfvgyzuIX6kTMrO-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-38" value="bfruntime下发流表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-40" value="不完全多归属&lt;br&gt;互联网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-39">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-42" value="单归属、完全多归属" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-41">
+          <mxGeometry x="-0.0711" relative="1" as="geometry">
+            <mxPoint x="60" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-43" value="接口类型" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="360" y="368" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-44" value="删除黑名单？不处理？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="378" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-46" target="23TfupfvgyzuIX6kTMrO-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-46" value="savnet表中删除该接口的白名单sav规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-48" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-47">
+          <mxGeometry x="-0.0469" y="-1" relative="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="23TfupfvgyzuIX6kTMrO-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.9985714285715" y="750.0014285714285" as="sourcePoint" />
+            <mxPoint x="518.8900000000001" y="925.6499999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-50" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23TfupfvgyzuIX6kTMrO-49">
+          <mxGeometry x="-0.2777" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-51" value="路由器是否有互联网、不完全多归属接口？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="360" y="710" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-52" value="在这两种接口上删除对应前缀黑名单规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-54" target="23TfupfvgyzuIX6kTMrO-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-54" value="发送ZEBRA_BGP_SAVNET_WITHDRAW消息通知BGPD进程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.003;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="23TfupfvgyzuIX6kTMrO-52" target="23TfupfvgyzuIX6kTMrO-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23TfupfvgyzuIX6kTMrO-56" value="在savnet表中增加sav规则，状态设置为inactive" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="143" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PPj-uqhimi7uNAB7kXMs-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PPj-uqhimi7uNAB7kXMs-1" target="23TfupfvgyzuIX6kTMrO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPj-uqhimi7uNAB7kXMs-1" value="解析消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PPj-uqhimi7uNAB7kXMs-4" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3VcLANlyzyY8TDHboL8R" name="第 3 页">
+    <mxGraphModel dx="1728" dy="2084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eUS8pawzNhUw9Yin3ONk-2" target="eUS8pawzNhUw9Yin3ONk-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-2" value="接收到EntryMsg" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-13" value="增加" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.042;exitY=0.487;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eUS8pawzNhUw9Yin3ONk-66" target="eUS8pawzNhUw9Yin3ONk-21">
+          <mxGeometry x="-0.5556" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="170" y="100" as="sourcePoint" />
+            <mxPoint x="70" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eUS8pawzNhUw9Yin3ONk-21" target="eUS8pawzNhUw9Yin3ONk-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-77" value="不在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eUS8pawzNhUw9Yin3ONk-76">
+          <mxGeometry x="0.1242" relative="1" as="geometry">
+            <mxPoint x="-6" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eUS8pawzNhUw9Yin3ONk-21" target="eUS8pawzNhUw9Yin3ONk-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-80" value="在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eUS8pawzNhUw9Yin3ONk-79">
+          <mxGeometry x="-0.219" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-21" value="前缀&lt;br&gt;在savnet表中？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eUS8pawzNhUw9Yin3ONk-60" target="eUS8pawzNhUw9Yin3ONk-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-60" value="解析消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eUS8pawzNhUw9Yin3ONk-66" target="eUS8pawzNhUw9Yin3ONk-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-72" value="删除" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eUS8pawzNhUw9Yin3ONk-71">
+          <mxGeometry x="-0.4562" y="-2" relative="1" as="geometry">
+            <mxPoint x="4" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-66" value="增加规则？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eUS8pawzNhUw9Yin3ONk-70" target="eUS8pawzNhUw9Yin3ONk-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-69" value="不在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eUS8pawzNhUw9Yin3ONk-68">
+          <mxGeometry x="-0.32" y="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eUS8pawzNhUw9Yin3ONk-70" target="eUS8pawzNhUw9Yin3ONk-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-70" value="前缀&lt;br&gt;在savnet表中？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="330" y="140" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-74" value="报错：没有该sav规则" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-75" value="增加新sav规则" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="160" y="157.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eUS8pawzNhUw9Yin3ONk-78" target="eUS8pawzNhUw9Yin3ONk-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-78" value="替换原有sav规则" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="10" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eUS8pawzNhUw9Yin3ONk-81" target="eUS8pawzNhUw9Yin3ONk-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-81" value="删除原有sav规则" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="320" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eUS8pawzNhUw9Yin3ONk-84" target="eUS8pawzNhUw9Yin3ONk-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-84" value="bfruntime下发流表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eUS8pawzNhUw9Yin3ONk-88" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="H-4XSs3v3k8WqSEHDTdq" name="第 4 页">
+    <mxGraphModel dx="691" dy="1535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-2" target="g4E7W7rwhw_GdHMaZdxc-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-2" value="PerfixeChange&lt;br&gt;事件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-3" value="在" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-5" target="g4E7W7rwhw_GdHMaZdxc-10">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-4" value="不在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-5" target="g4E7W7rwhw_GdHMaZdxc-6">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-5" value="出接口&lt;br&gt;在savnet接口表中？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-6" value="报错：没有该savnet接口" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-7" value="不在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-10" target="g4E7W7rwhw_GdHMaZdxc-11">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-10" target="g4E7W7rwhw_GdHMaZdxc-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-9" value="在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-8">
+          <mxGeometry x="-0.1917" y="3" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-10" value="前缀&lt;br&gt;在RIB中？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-11" value="增加sav规则，状态设置为inactive" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-12" value="在" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-57" target="g4E7W7rwhw_GdHMaZdxc-5">
+          <mxGeometry x="-0.7391" y="-10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="180" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-57" target="g4E7W7rwhw_GdHMaZdxc-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460.02857142857147" y="170" as="targetPoint" />
+            <mxPoint x="260" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-14" value="不在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-13">
+          <mxGeometry x="-0.04" y="1" relative="1" as="geometry">
+            <mxPoint x="-90" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-20" target="g4E7W7rwhw_GdHMaZdxc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-17" value="不在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-16">
+          <mxGeometry x="-0.32" y="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-20" target="g4E7W7rwhw_GdHMaZdxc-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-19" value="在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-18">
+          <mxGeometry x="-0.1476" relative="1" as="geometry">
+            <mxPoint x="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-20" value="出接口&lt;br&gt;在savnet接口表中？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-22" value="不完全多归属&lt;br&gt;互联网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-21">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-24" value="单归属、完全多归属" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-23">
+          <mxGeometry x="-0.0711" relative="1" as="geometry">
+            <mxPoint x="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-25" value="接口类型" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="g4E7W7rwhw_GdHMaZdxc-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-28" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-27">
+          <mxGeometry x="-0.0469" y="-1" relative="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="g4E7W7rwhw_GdHMaZdxc-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.99857142857147" y="680.0014285714285" as="sourcePoint" />
+            <mxPoint x="198.89000000000007" y="855.6499999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-30" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-29">
+          <mxGeometry x="-0.2777" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-31" value="路由器是否有互联网、不完全多归属接口？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-32" value="添加黑名单？不处理？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-33" value="savnet表中生成该接口的白名单sav规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-34" value="在这两种接口上生成对应前缀黑名单规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-36" target="g4E7W7rwhw_GdHMaZdxc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-36" value="发送ZEBRA_BGP_SAVNET_DECLARE消息通知BGPD进程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.003;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-34" target="g4E7W7rwhw_GdHMaZdxc-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-38" value="bfruntime下发流表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-40" value="不完全多归属&lt;br&gt;互联网" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-39">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-42" value="单归属、完全多归属" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-41">
+          <mxGeometry x="-0.0711" relative="1" as="geometry">
+            <mxPoint x="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-43" value="接口类型" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="360" y="410" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-44" value="删除黑名单？不处理？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-46" target="g4E7W7rwhw_GdHMaZdxc-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-46" value="savnet表中删除该接口的白名单sav规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-48" value="有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-47">
+          <mxGeometry x="-0.0469" y="-1" relative="1" as="geometry">
+            <mxPoint x="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="g4E7W7rwhw_GdHMaZdxc-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.9985714285715" y="680.0014285714285" as="sourcePoint" />
+            <mxPoint x="518.8900000000001" y="855.6499999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-50" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g4E7W7rwhw_GdHMaZdxc-49">
+          <mxGeometry x="-0.2777" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-51" value="路由器是否有互联网、不完全多归属接口？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="360" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-52" value="在这两种接口上删除对应前缀黑名单规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-54" target="g4E7W7rwhw_GdHMaZdxc-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-54" value="发送ZEBRA_BGP_SAVNET_WITHDRAW消息通知BGPD进程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.003;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g4E7W7rwhw_GdHMaZdxc-52" target="g4E7W7rwhw_GdHMaZdxc-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g4E7W7rwhw_GdHMaZdxc-57" value="前缀出接口在savnet接口表中？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-10" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
