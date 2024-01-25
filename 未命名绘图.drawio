@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-25T01:43:21.614Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="KwGg3B_LkdCtVApZiAbG" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-25T01:44:15.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Ti4HUb9qrgjHReE_U0Sv" version="23.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1185" dy="1796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,11 +135,17 @@
         <mxCell id="zvvp0phdEBOQ2-SjyJMt-24" value="在这两种接口上生成对应前缀黑名单规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="760" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="zvvp0phdEBOQ2-SjyJMt-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zvvp0phdEBOQ2-SjyJMt-25" target="zvvp0phdEBOQ2-SjyJMt-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zvvp0phdEBOQ2-SjyJMt-25" value="发送ZEBRA_BGP_SAVNET_DECLARE消息通知BGPD进程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zvvp0phdEBOQ2-SjyJMt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.003;entryY=0.589;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zvvp0phdEBOQ2-SjyJMt-24" target="zvvp0phdEBOQ2-SjyJMt-25">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zvvp0phdEBOQ2-SjyJMt-29" value="bfruntime下发流表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
