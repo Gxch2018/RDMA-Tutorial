@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T08:18:06.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="YbDDnSWEZb_DrlVm5CSJ" version="23.0.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-30T08:18:36.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="FsHWSESjAa-hQNsBK8J2" version="23.0.0" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1979" dy="1779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -345,7 +345,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Page-1 的副本" id="7tisMHRNKpconnHW8NKj">
-    <mxGraphModel dx="2901" dy="2267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3267" dy="2461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Zdup1XvJoSk0FVnoBPRu-0" />
         <mxCell id="Zdup1XvJoSk0FVnoBPRu-1" parent="Zdup1XvJoSk0FVnoBPRu-0" />
@@ -477,7 +477,7 @@
         <mxCell id="Zdup1XvJoSk0FVnoBPRu-30" value="白名单中生成该接口的白名单sav规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Zdup1XvJoSk0FVnoBPRu-1">
           <mxGeometry x="97" y="509.99999999999994" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Zdup1XvJoSk0FVnoBPRu-31" value="在这两种接口上生成对应前缀黑名单规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Zdup1XvJoSk0FVnoBPRu-1">
+        <mxCell id="Zdup1XvJoSk0FVnoBPRu-31" value="在这两种接口组上生成对应前缀黑名单规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Zdup1XvJoSk0FVnoBPRu-1">
           <mxGeometry x="97" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zdup1XvJoSk0FVnoBPRu-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Zdup1XvJoSk0FVnoBPRu-1" source="Zdup1XvJoSk0FVnoBPRu-33" target="Zdup1XvJoSk0FVnoBPRu-36">
